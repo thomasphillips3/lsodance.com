@@ -1,4 +1,78 @@
-baseURL = "http://example.org/"
+baseURL = "http://lsodance.com/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "LaShelle's School of Dance"
 theme = "terrassa"
+[params]
+    description = "Terrassa is a simple, fast and responsive theme for Hugo with a strong focus on accessibility made from scratch."
+    favicon = "favicon.ico"
+    logo = ""
+
+[params.hero]
+    textColor = "purple" # Empty for default color
+
+[params.cta] # Call To Action 
+    show = true
+    cta = "Contact"
+    link = "contact" # Relative URL
+
+[params.separator] # Separators between sections on the home page
+    show = false
+
+[params.fa] # Font Awesome options
+    version = "5.7.2"
+    integrity = "sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP"
+
+[params.form] # Contact form
+    netlify = true
+    action = "https://formspree.io/lashellesdance@gmail.com"
+    method = "POST"
+    inputNameName = "name"
+    inputNameLabel = "Name"
+    inputNamePlaceholder = "Your name"
+    inputEmailName = "email"
+    inputEmailLabel = "Email"
+    inputEmailPlaceholder = "Your email"
+    inputMsgName = "message"
+    inputMsgLabel = "Write something"
+    inputMsgLength = 750
+    inputSubmitValue = "Send"
+
+[params.posts]
+    showAuthor = true
+    showDate = true
+    showTags = true
+    dateFormat = "Monday, Jan, 2006"
+
+[params.contact] # Contact info
+    email = "LaShellesDance@gmail.com"
+    phone = "(248) 414-3243"
+    skype = ""
+    address = "21330 Coolidge Highway, Oak Park, MI 48237"
+
+[params.social]
+    # twitter = "https://twitter.com/john"
+    facebook = "http://www.facebook.com/pages/LaShelles-School-of-Dance/376047355770032"
+    instagram = "https://www.instagram.com/lsodance/"
+
+[params.copy] # Copyright
+    copy = "" # LaShelle's School of Dance
+
+[privacy]
+    [privacy.googleAnalytics]
+        anonymizeIP = true
+        disable = false
+        respectDoNotTrack = true
+        useSessionStorage = false
+    [privacy.instagram]
+        disable = false
+        simple = false
+    [privacy.twitter]
+        disable = true
+        enableDNT = true
+        simple = false
+    [privacy.vimeo]
+        disable = false
+        simple = false
+    [privacy.youtube]
+        disable = false
+        privacyEnhanced = true
