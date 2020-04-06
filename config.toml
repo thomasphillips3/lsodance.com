@@ -1,4 +1,4 @@
-baseURL = "http://lsodance.com/"
+baseURL = "https://lsodance-beta.netlify.com/"
 languageCode = "en-us"
 title = "LaShelle's School of Dance"
 theme = "terrassa"
